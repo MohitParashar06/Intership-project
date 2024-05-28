@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .bg-very-pale-blue {
+      background-color: hsl(230, 100%, 99%);
+    }
+  
+    .bg-light-grayish-blue {
+      background-color: hsl(224, 65%, 95%);
+    }
+  
+    .bg-toggle-background {
+      background-color: hsl(223, 50%, 87%);
+    }
+  
+    .bg-strong-cyan {
+      background-color: hsl(174, 86%, 45%);
+    }
+  
+    .bg-light-grayish-red {
+      background-color: hsl(14, 92%, 95%);
+    }
+  
+    .text-light-red {
+      color: hsl(15, 100%, 70%);
+    }
+  
+    .text-pale-blue {
+      color: hsl(226, 100%, 87%);
+    }
+  
+    .text-dark-desaturated-blue {
+      color: hsl(227, 35%, 25%);
+    }
+  
+    .text-grayish-blue {
+      color: hsl(225, 20%, 60%);
+    }
+  }
+  
