@@ -105,7 +105,7 @@ const PricingCard = () => {
                 <span className="ml-6 text-grayish-blue">Yearly Billing</span>
               </label>
               <span className="px-2 py-0.5 rounded text-light-red bg-light-grayish-red text-sm">
-                25% discount
+                25% 
               </span>
             </div>
           </div>
