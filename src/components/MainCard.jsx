@@ -12,8 +12,8 @@ const pricingData = [
 ];
 
 const PricingCard = () => {
-  const [index, setIndex] = useState(5); 
-
+  const [index, setIndex] = useState(2); 
+  
   const [yearlyBilling, setYearlyBilling] = useState(false);
 
   const { views, price } = pricingData[index];
