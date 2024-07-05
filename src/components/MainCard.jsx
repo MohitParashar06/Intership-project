@@ -16,7 +16,7 @@ const PricingCard = () => {
   const [yearlyBilling, setYearlyBilling] = useState(false);
 
   const { views, price } = pricingData[index];
-  const finalPrice = yearlyBilling ? price * 0.75 : price;
+  const finalPrice = yearlyBilling ? price * 0.76 : price;
 
   const handleSliderChange = (e) => {
     setIndex(Number(e.target.value));
