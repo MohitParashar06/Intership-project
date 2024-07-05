@@ -13,7 +13,7 @@ const pricingData = [
 
 const PricingCard = () => {
   const [index, setIndex] = useState(5); 
-  
+
   const [yearlyBilling, setYearlyBilling] = useState(false);
 
   const { views, price } = pricingData[index];
@@ -27,8 +27,9 @@ const PricingCard = () => {
     setYearlyBilling(!yearlyBilling);
   };
 
+
   return (
-    <div className="flex items-center justify-center">
+    <div className="flex items-center justify-between">
       <div
         className="relative flex flex-col justify-center items-center text-center pt-4 pb-16 mt-16 h-[95%] w-[80%] rounded-lg shadow-xl"
         style={{
