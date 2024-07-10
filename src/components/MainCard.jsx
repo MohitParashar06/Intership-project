@@ -12,7 +12,7 @@ const pricingData = [
 ];
 
 const PricingCard = () => {
-  //Hello
+  //Hello 
   const [index, setIndex] = useState(10); 
   const [yearlyBilling, setYearlyBilling] = useState(false);
 
